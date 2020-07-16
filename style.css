@@ -1,0 +1,141 @@
+body {margin:0;padding:0;} /*CSS Reset*/
+html {height:100%;}
+body
+{
+  font-family: 'Quicksand', sans-serif; /*Default Font*/
+  width:100%;
+  height:100%;
+  display:inline-block;
+  background-color: #fafafa;
+
+}
+
+.header{
+
+  border-bottom: 1px solid #efefef;
+  box-sizing: border-box;
+  height: 77px;
+  margin-bottom: 60px;
+  padding: 10px 60px;
+  background-color: #fff;
+  margin-top: 0;
+
+
+}
+
+.name{
+
+  height: 100%;
+  width: 980px;
+  margin: auto;
+  overflow: visible;
+  position: relative;
+
+}
+
+.header .c_logo,
+.header .c_name{
+
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.c_logo img{
+
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+
+}
+
+.vertical-line{
+  display: inline-block;
+  border-left: 1px solid #ddd;
+  height: 20px;
+  margin: 0px 15px;
+
+
+
+}
+.c_name{
+
+  margin-bottom: 10px;
+}
+
+@media (max-width:880px) {
+
+  .name{
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: none;
+    margin: auto;
+  }
+}
+
+.app{
+
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+  max-width: 980px;
+  height: 100%;
+  margin: auto;
+  margin-bottom: .5em;
+  font-size: 13px;
+  line-height: 1.538;
+  padding : 0px  32px;
+  position: relative;
+
+}
+
+ .heading .data{
+
+  font-size: 23px;
+  font-weight:  ;
+  line-height: 1.538;
+
+
+}
+
+
+.intro p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 8px;
+  margin: auto;
+  margin-top: 40px;
+  max-width: 960px;
+  margin-bottom: 60px;
+  text-align: justify;
+}
+
+
+
+.intro li{
+
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 8px;
+  margin: auto;
+  margin-top: 40px;
+  max-width: 960px;
+  text-align: justify;
+}
+
+.footer{
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+@media (max-width:880px) {
+
+  .footer{
+    text-align: center;
+    display: block;
+    width: 100%;
+
+  }
+
+}
